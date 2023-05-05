@@ -1,4 +1,4 @@
-# Code README
+# Various Python Scripts
 
 This repository includes multiple Python scripts that demonstrate different concepts and functionalities in Python programming language. Below is a brief summary of each script:
 
