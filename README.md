@@ -1,4 +1,4 @@
-# Various Python Scripts: main_code_file![link](https://github.com/cloudarcKnights/python-scripting-project/blob/6b554bd163222d28d24b7eaea27e157fe22add95/test.py)
+# Various Python Scripts: main_code_file: [link](https://github.com/cloudarcKnights/python-scripting-project/blob/6b554bd163222d28d24b7eaea27e157fe22add95/test.py)
 
 This repository includes multiple Python scripts that demonstrate different concepts and functionalities in Python programming language. Below is a brief summary of each script:
 
