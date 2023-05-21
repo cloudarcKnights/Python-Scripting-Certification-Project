@@ -1,6 +1,6 @@
-# Various Python Scripts: main_code_file: [link](https://github.com/cloudarcKnights/python-scripting-project/blob/6b554bd163222d28d24b7eaea27e157fe22add95/test.py)
+# Various Python Scripts: main_code_file: [link](https://github.com/cloudarcKnights/Python-Scripting-Certification-Project/tree/master/final_project)
 
-This repository includes multiple Python scripts that demonstrate different concepts and functionalities in Python programming language. Below is a brief summary of each script:
+A repository of Python project scripts I created while to complete the Google: Python Automation certificate.
 
 ### 1. `lucky_number.py`
 This script defines a name variable and calculates a lucky number based on the length of the name. The script then prints a message to display the name and the lucky number.
