@@ -50,3 +50,38 @@ This script provides a simple interface to send emails with attachments using th
    email.send()
    ```
 
+
+# Project 3: System Health Check
+
+This script performs a health check on the system by monitoring disk usage, CPU usage, memory availability, and hostname resolution. It sends email notifications if any of the monitored metrics exceed predefined thresholds or if there are errors in hostname resolution.
+
+## Prerequisites
+
+- Python 3
+- `psutil` module (install using `pip install psutil`)
+- `emails` module (install using `pip install emails`)
+
+## Configuration
+
+Before running the script, make sure to configure the following variables within the script:
+
+- `sender`: Email address of the sender.
+- `receiver`: Email address of the recipient. By default, it uses the current user's username obtained from the environment variables.
+- `body`: Body of the email notification to be sent.
+
+## Usage
+
+1. Ensure that the required modules (`psutil` and `emails`) are installed.
+
+2. The script will perform the following checks:
+
+   - Disk Usage: Checks if the available disk space is less than 20% and sends an email notification if it is.
+   - CPU Usage: Checks if the CPU usage is over 80% and sends an email notification if it is.
+   - Memory Availability: Checks if the available memory is less than 500MB and sends an email notification if it is.
+   - Hostname Resolution: Checks if the hostname 'localhost' can be resolved to '127.0.0.1' and sends an email notification if it cannot.
+
+   Note: You can customize the threshold values and error messages for each check within their respective functions.
+
+3. The script will send email notifications using the `emails` module if any of the checks fail or encounter errors.
+
+
